@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Cardo";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #732A10;
+    font-size: 23px;
+    color: #A64F3C;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Cardo";
+    margin-bottom: 80px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #A64F3C;
+    border-color: #A64F3C;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Cardo";
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #A64F3C;
+
+}
+
+.container{
+    margin-top: 40px;
+    background-color: #F2E0C9;
+    border-radius: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}

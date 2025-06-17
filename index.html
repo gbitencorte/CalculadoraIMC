@@ -5,36 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora IMC</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css"/>
   </head>
   <body>
-    <div id="container">
-    <h1>Calculadora IMC</h1>
+    <main id="container" class="container">
+      <h1>Calculadora IMC</h1>
 
-    <form action="" id="imcForm">
+      <form action="" id="imcForm">
+        <label for="nome">Informe seu nome: </label>
+        <input type="text" name="nome" id="nome" />
+        <br />
+        <br />
 
-      <label for="nome">Informe seu nome: </label>
-      <input type="text" name="nome" id="nome" />
-      <br>
-      <br>
+        <label for="peso">Informe seu peso: </label>
+        <input type="text" name="peso" id="peso" required />
+        <br />
+        <br />
 
-      <label for="peso">Informe seu peso: </label>
-      <input type="text" name="peso" id="peso" required />
-      <br>
-      <br>
+        <label for="altura">Informe sua altura: </label>
+        <input type="text" name="altura" id="altura" required />
+        <br />
+        <br />
 
-      <label for="altura">Informe sua altura: </label>
-      <input type="text" name="altura" id="altura" required />
-      <br>
-      <br>
+        <button type="submit">Calcule seu IMC</button>
+      </form>
 
-      <button type="submit">Calcule seu IMC</button>
-
-    </form>
-
-    <!-- ul - histórico -->
-    <p id="resultado"></p>
-</div>
+      <!-- ul - histórico -->
+      <p id="resultado"></p>
+    </main>
 
     <script src="script.js"></script>
 
